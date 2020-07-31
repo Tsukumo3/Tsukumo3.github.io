@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "RD-R";
+    src: url("./fonts/RictyDiminished-master/RictyDiminishedDiscord-Regular.ttf") format('truetype');
+}
+
+body    {
+    background-color: #222222; 
+    font-family: "RD-R";
+}
+
+#header {
+
+    border-bottom: solid 5px;
+    color: darkgreen;
+    font-size: 40px;
+}
+
+#header-inner {
+    position: relative;
+    color: azure;
+}
+
+#header-image img{
+    width: 100%;
+}
+
+#header-content {
+    position: absolute;
+    color: azure;
+    top: 0;
+    left: 0;
+}
+
+#blog-body       {
+    color: rgb(183, 238, 137);
+    font-size: 30px;
+    font-family: "RD-R";
+}
