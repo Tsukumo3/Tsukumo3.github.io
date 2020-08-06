@@ -38,3 +38,8 @@ body    {
     font-size: 30px;
     font-family: "RD-R";
 }
+
+a:link {color: #98a1e9;}
+a:visited{color:#88e788;} 
+a:hover{color:#e58fe5;} 
+a:active{color:#ecec9e;} 

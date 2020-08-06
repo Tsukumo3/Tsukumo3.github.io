@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "RD-R";
+  src: url("../../../fonts/RictyDiminished-master/RictyDiminished-Regular.ttf") format('truetype');
+}
+
+body    {
+  background-color: #222222; 
+  font-family: "RD-R";
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.videoTitle {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.videoBlock {
+  text-align: center;
+}
+
+.buttonBlock {
+  text-align: center;
+  margin: 20px;
+  letter-spacing: 10px;
+}
+
+button.myButton  {
+  display: inline-block;
+  text-decoration: none;
+  background: #87befd;
+  color: #FFF;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 5px #87befd;
+  border: dashed 1px #FFF;
+  transition: all 0.1s ease;
+  font-size: xx-large;
+}
+
+button.myButton:hover {
+  background-color: #4e6aa5;
+  box-shadow: 0px 0px 0px 5px #4e6aa5;
+}
+
+
+a:link {color: #98a1e9;}
+a:visited{color:#88e788;} 
+a:hover{color:#e58fe5;} 
+a:active{color:#ecec9e;} 
