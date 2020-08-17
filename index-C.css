@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "RD-R";
+    src: url("./fonts/RictyDiminished-master/RictyDiminishedDiscord-Regular.ttf") format('truetype');
+}
+
+body    {
+    background-color: #222222; 
+    font-family: "RD-R";
+}
+
+#header {
+    border-bottom: solid 5px;
+    color: darkgreen;
+    font-size: 40px;
+}
+
+#header-inner {
+    position: relative;
+    color: cyan;
+    vertical-align: middle;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#header-image img{
+    width: 100%;
+}
+
+#header-content {
+    position: absolute;
+    color: #23576d;
+
+}
+
+ul.h-menu {
+    list-style: none;
+    
+}
+
+ul.h-menu >li{
+    display: inline;
+}
+
+ul.h-menu >li a{
+    color:rgb(41, 41, 41);
+    font-size: 20px;
+    padding:0px 24px;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+
+
+.portfolio  {
+    color: rgb(183, 238, 137);
+}
+
+
+.p-title  {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.p-content  {
+    font-size: 20px;
+}
+
+
+
+
+.blog-body       {
+    color: rgb(183, 238, 137);
+    font-size: 30px;
+}
+
+a:link {color: #98a1e9;}
+a:visited{color:#88e788;} 
+a:hover{color:#e58fe5;} 
+a:active{color:#ecec9e;} 
