@@ -7,6 +7,8 @@
   <meta name="description" content="tsukumo.blogはhtml-cssの扱い方を学んでいきます。">
   <meta name="keywords" content="tsukumo, design">
   <link rel="stylesheet" href="index-C.css">
+  <link rel="stylesheet" href="spin.css">
+  <script type="text/javascript" src="spin.js"></script>
 </head>
 
 <body>
@@ -28,51 +30,63 @@
               <li class="pull-left"><a href="#contact" class="lsf-icon" title="mail">Contact</a></li>
               <li class="pull-left"><a href="#article" class="lsf-icon" title="mail">Article</a></li>
           </ul>
-
+        </div>
       </div>
     </div>
   </div>
 
   <a id="profile"></a>
-  <div class="portfolio">
+  <div class="paragraph">
     <div class="p-title">
       <h1>Profile</h1>
     </div>
     <div class="p-content">
-      初めまして, tkmです。
+      <div class="box" id="box2"><img src="images/icon2.png"></div>
+      <div class="box" id="box3"><p>
+      現在情報系の学部4年生です。研究ではVRの遠隔コミュニケーションをテーマにして開発を行っております。
+    </p></div>
     </div>
   </div>
 
   <a id="works"></a>
-  <div class="portfolio">
+  <div class="paragraph">
     <div class="p-title">
       <h1>Works</h1>
     </div>
     <div class="p-content">
-      Javaでアプリ作ったり，Unity,C#でVRアプリ作ったりしてます。
+      <p>Javaでアプリ作ったり，Unity,C#でVRアプリ作ったり，C++, Pythonで競技プログラミングしたりしてます。</p>
+      <p>最近GitHub Pagesでポートフォリオを作るために、html, css, javascript, jQuery, Jekyll, Ruby等の勉強しています。</p>
+      <p>詳細は私のGitHubをご覧ください</p>
+
     </div>
   </div>
 
   <a id="contact"></a>
-  <div class="portfolio">
+  <div class="paragraph">
     <div class="p-title">
       <h1>Contact</h1>
     </div>
     <div class="p-content">
-      Javaでアプリ作ったり，Unity,C#でVRアプリ作ったりしてます。
+      <p>Github: Tsukumo3 -><a href="https://github.com/Tsukumo3">https://github.com/Tsukumo3</a></p>
     </div>
   </div>
 
   <a id="contact"></a>
-  <div class="portfolio">
+  <div class="paragraph">
     <div class="p-title">
       <h1>Article</h1>
     </div>
-    <div class="p-content">
-      <p>こちらへ<a href="./article/article.html" class="lsf-icon" title="article">Jump</a></p>
+    <div class="p-title">
+      <a href="./article/article.html" class="lsf-icon" title="article">Jump</a>
     </div>
   </div>
 
 </body>
+
+<div id="my-spinner" class="boxWait">
+  <div class="spinner type1">
+    <span>Loading...</span>
+  </div>
+</div>
 
 </html>

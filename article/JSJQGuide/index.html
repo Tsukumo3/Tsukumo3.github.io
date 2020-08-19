@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>tsukumo.blog - いちからぶろぐをつくろう</title>
+  <meta name="description" content="tsukumo.blogはhtml-cssの扱い方を学んでいきます。">
+  <meta name="keywords" content="tsukumo, design">
+  <link rel="stylesheet" href="../../index-C.css">
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+  <a id="home"></a>
+  <div id="header">
+    <div id="header-inner">
+      <div id="header-image">
+        <img src="../../images/header_picture.png" />
+      </div>
+      <div id="header-content">
+        <h1>Tsukumo's Blog</h1>
+        <p class="header-description">あーちくる</p>
+
+        <div class="h-menu">
+          <ul class="h-menu clearfix">
+              <li class="pull-left"><a href="../article.html" class="lsf-icon" title="mail">Article</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a id="b-body"></a>
+  <div class="portfolio">
+    <div class="p-title">
+      <h1>JavaScriptとJQueryの勉強</h1>
+    </div>
+    <div class="p-content">
+      <p>今回はJavaScriptの勉強を改めてしていこうと思います。</p>
+    </div>
+    
+    <p>jquery - ボタンとアニメーション</p>
+
+    <p>拡大</p>
+    
+    <div class="jq">
+      <button id="go">» Run</button>
+      <div class="block1">Hello!</div>
+    </div>
+
+    <p>スライド</p>
+    
+    <div class="jq">
+      <button id="left">&lt;&lt;</button>
+      <button id="right">&gt;&gt;</button>
+      <div class="block2">Hello!</div>
+    </div>
+
+    <div class="p-content">
+      <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+      <script type="text/javascript" src="main.js"></script>
+    </div>
+
+    <p>すごい稚拙な感じになってしまったので、改めて１から学び直したい...</p>
+    
+  </div>
+
+</body>
+
+</html>

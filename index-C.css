@@ -12,7 +12,7 @@ body    {
 
 #header {
     border-bottom: solid 5px;
-    color: darkgreen;
+    color: #49BDF0;
     font-size: 40px;
 }
 
@@ -48,16 +48,17 @@ ul.h-menu >li{
 
 ul.h-menu >li a{
     color:rgb(41, 41, 41);
-    font-size: 20px;
+    font-size: 22px;
     padding:0px 24px;
     transition: background-color 0.3s;
     box-sizing: border-box;
 }
 
-
-
-.portfolio  {
-    color: rgb(183, 238, 137);
+.paragraph  {
+    /*color: rgb(183, 238, 137);*/
+    color: #aae6ff;
+    box-sizing: border-box;
+    border: solid 1px cadetblue;
 }
 
 
@@ -68,14 +69,25 @@ ul.h-menu >li a{
 }
 .p-content  {
     font-size: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display:flex;
 }
-
-
-
 
 .blog-body       {
     color: rgb(183, 238, 137);
     font-size: 30px;
+}
+
+.box{
+    margin: 0 auto;
+    /*border:1px solid #ccc;*/
+    background-color: #24242422;
+}
+
+#box3   {
+    width: 60%;
 }
 
 a:link {color: #98a1e9;}
