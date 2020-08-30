@@ -87,6 +87,10 @@ footer, .footer {
   padding: 9px;
 }
 
+footer > small > a {
+  color: #fff;
+}
+
 .container {
   overflow: hidden;
   display: flex; /* mainとasideのボックスを横並びにし底辺のラインを揃える */
