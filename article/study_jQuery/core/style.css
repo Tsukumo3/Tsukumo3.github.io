@@ -1,0 +1,99 @@
+body {
+  margin: 5;
+  padding: 0;
+  background: #222222;
+}
+
+header, .header {
+  background: #427fa3;
+  color: #fff;
+  padding: 9px;
+}
+
+header > h1 {
+  padding-left: 10px;
+}
+
+header > h1 > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav, .nav {
+  background: #fff;
+  color: #000;
+  padding: 9px;
+}
+
+main, .main {
+  float: left;
+  width: 70%;
+  background: #ecf9ff;
+  padding: 9px;
+  box-sizing: border-box;
+}
+
+main > main-title {
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+main > section {
+  background: #013c5e;
+  color: #fff;
+  padding: 9px;
+  margin-bottom: 9px;
+}
+
+main > section > section-title {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+main > section > article {
+  padding-left: 15px;
+}
+
+aside > section {
+  background: #71c9f1;
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  margin-bottom: 9px;
+}
+
+aside > section > section-title {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+article, .article {
+  background: #fff;
+  color: #000;
+  padding: 9px;
+}
+
+aside, .aside {
+  float: right;
+  width: 30%;
+  padding: 9px;
+  box-sizing: border-box;
+  background: #ccebfa;
+}
+
+footer, .footer {
+  background: #1B3547;
+  color: #fff;
+  padding: 9px;
+}
+
+.container {
+  overflow: hidden;
+  display: flex; /* mainとasideのボックスを横並びにし底辺のラインを揃える */
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: block;
+}
