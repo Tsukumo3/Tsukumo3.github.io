@@ -7,5 +7,10 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist'
+  },
+  resolve: {
+    alias: {
+      '/node_modules': '/node_modules'
+    }
   }
 })
