@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# tsukumo.github.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+このリポジトリは、私のポートフォリオサイトのソースコードを管理するためのものです。
 
-Currently, two official plugins are available:
+## 技術スタック
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ビルドツール: Vite
+- プロジェクト: React + TypeScript
+- CSSライブラリ: Material Design Lite
+- CI/CD: GitHub Action
+- ホスティング：GitHub Pages
 
-## Expanding the ESLint configuration
+## ページ
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Home
+- Portofolio（工事中）
+- Blog（工事中）
+- ABOUT（工事中）
+- Contact（工事中）
 
-- Configure the top-level `parserOptions` property like this:
+## 開発環境構築手順
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. install volta
+2. install node.js
+3. install vite
+4. git clone this repository
+5. npm install
+6. npm run dev
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## リンク
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- https://tsukumo3.github.io
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## ライセンス
+
+MITライセンスの下で公開されています。
